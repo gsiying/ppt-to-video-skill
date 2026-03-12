@@ -1,0 +1,60 @@
+{
+  "name": "ppt-to-video-voiceover",
+  "version": "2.0.0",
+  "description": "将 PPT 转换为带配音的 MP4 视频（云端版）",
+  "author": "MiniMax Agent",
+  "homepage": "https://github.com/gsiying/ppt-to-video-skill",
+  "repository": "https://github.com/gsiying/ppt-to-video-skill",
+  "license": "MIT",
+  "tags": [
+    "ppt",
+    "video",
+    "voiceover",
+    "tts",
+    "presentation",
+    "media"
+  ],
+  "categories": [
+    "productivity",
+    "media",
+    "automation"
+  ],
+  "runtime": "native",
+  "minOpenClawVersion": "2024.0.0",
+  "env": {},
+  "dependencies": {},
+  "commands": {
+    "execute": "native"
+  },
+  "permissions": {
+    "file_read": true,
+    "file_write": true,
+    "network": true,
+    "tts": true,
+    "video": true
+  },
+  "examples": [
+    {
+      "description": "基本转换",
+      "input": "把这个 PPT 转为视频"
+    },
+    {
+      "description": "使用女声",
+      "input": "用女声把这份 PPT 转为带配音的视频"
+    },
+    {
+      "description": "英文视频",
+      "input": "把 PPT 转成英文视频"
+    }
+  ],
+  "keywords": [
+    "ppt",
+    "powerpoint",
+    "video",
+    "voiceover",
+    "tts",
+    "audio",
+    "converter"
+  ],
+  "note": "此版本使用 MiniMax 云端 API，无需安装额外依赖"
+}
